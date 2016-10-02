@@ -3,14 +3,14 @@
 }
 
 header {
-  padding-left: 120px;
+  padding-left: 147px;
   padding-right: 120px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #3f3f3f;
 }
 
-ul {
+header ul {
   list-style-type: none;
   margin: 25px;
   padding: 0;
@@ -18,7 +18,7 @@ ul {
   float: right;
 }
 
-li {
+header li {
   display: inline;
   margin: 50px;
   color: #939393;
@@ -27,4 +27,26 @@ li {
 section {
   margin: 0 auto;
   width: 960px;
+  padding-top: 30px;
+}
+
+section img {
+  /*padding-top: 15px;*/
+  padding-bottom: 30px;
+}
+
+section li {
+  display: inline;
+  /*margin: 5px;*/
+}
+
+section ul {
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+
+footer {
+  background-color: #3f3f3f;
+  padding: 30px;  
 }
