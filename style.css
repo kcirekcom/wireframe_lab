@@ -1,3 +1,30 @@
 * {
   border: 1px dotted black;
 }
+
+header {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3f3f3f;
+}
+
+ul {
+  list-style-type: none;
+  margin: 25px;
+  padding: 0;
+  width: 720px;
+  float: right;
+}
+
+li {
+  display: inline;
+  margin: 50px;
+  color: #939393;
+}
+
+section {
+  margin: 0 auto;
+  width: 960px;
+}
